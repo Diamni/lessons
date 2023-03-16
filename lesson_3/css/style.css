@@ -1,0 +1,34 @@
+/* RESET STYLES */
+@import url("reset.css");
+
+/* Main styles */
+a {
+    color: blue;
+}
+span {
+    color: black;
+}
+.mainTitle {
+    color: blueviolet;
+}
+h2 {
+    color: green;
+}
+.mainContent {
+    color: crimson;
+}
+.first__container {
+    color: darkred;
+}
+.second__container {
+    color: darkolivegreen;
+}
+.third__container {
+    color: lightcoral;
+}
+.navigation {
+    color: maroon;
+}
+blockquote {
+    color: brown;
+}
