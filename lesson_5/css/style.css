@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+@import url("reset.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6C757D;
+}
+
+/*----Робимо обмежуючий контейнер --------*/
+/* прийнято ставити відступи по 15рх щоб краї в'юпорту при звуженні не були "приклеєні" 
+до контенту, в такому випадку до макс ширини треба їх додавати. 
+До прикладу наступне: 1240 + 15 + 15 = 1270 */
+[class*="__container"] {
+    max-width: 1270px; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*------------- далі сама стаття --------*/
+/* відступи ведемо від верху до низу */
+.article {
+    padding-top: 80px; /* тут перший відступ тому є і у верх */
+    padding-bottom: 80px; /*відступ вниз*/
+}
+
+/* додаткове обмеження ширини */
+/* тут додаткових відступів не потрібно, вони вже є на основному обмеженні */
+.article__text {
+    max-width: 816px;
+    margin: 0 auto 80px; /*зверху 0 зліва_зправа авто (воно його відцентрує) і знизу 80*/
+}
+.article__text p {
+    line-height: 1.78; /* 25/14 */
+    margin-bottom: 30px; /*відступ вниз*/
+}
+.title {
+    color: #212529;
+    font-size: 25px;
+    line-height: 1.6; /* 40/25 */
+    margin-bottom: 40px; /*відступ вниз*/
+    font-weight: 700;
+    max-width: 605px;
+}
+.image {
+    max-width: 100%;
+    margin-bottom: 80px; /*відступ вниз*/
+}
+.images {
+    font-size: 0;
+}
+.img_1 {
+    margin-right: 30px;}
