@@ -1,0 +1,133 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+
+
+[class*="__container"] {
+	max-width: 1240px;
+    margin: 0 auto;
+}
+
+.first_page {
+    background: #212529 url("../img/01.jpg") center / cover no-repeat;
+    padding: 330px 0 100px;
+    color: #E5E5E5;
+    margin-bottom: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.66; /* 20/12 */
+}
+.title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6; /* 40/25 */
+    color: #F8F9FA;
+    max-width: 605px;
+}
+
+/*---------------lists--------------*/
+
+.lists {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #637381;
+}
+.lists ul {
+    display: inline-block;
+    width: 309px;
+    margin-right: 91px;
+    margin-bottom: 60px;
+}
+
+.list_title {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.07; /* 28/26 */
+    color: #212B36;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+.list li {
+    padding-top: 2px;
+    padding-left: 30px;
+    margin-bottom: 18px;
+    min-height: 20px;
+}
+.list_1 li {
+    background-image: url("../img/ellipse.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 18px;
+    min-height: auto;
+    line-height: 0.9;
+    padding-top: 0;
+}
+.list_2 li {
+    background-image: url("../img/checkmark_1.jpg");
+    background-repeat: no-repeat;
+}
+.list_3 li {
+    background-image: url("../img/checkmark_2.jpg");
+    background-repeat: no-repeat;
+}
+.list_4 li {
+    background-image: url("../img/cross-circle.jpg");
+    background-repeat: no-repeat;
+}
+.list_5 li {
+    background-image: url("../img/arrow-right.jpg");
+    background-repeat: no-repeat;
+}
+.list_6 li{
+    background-image: url("../img/star.jpg");
+    background-repeat: no-repeat;
+}
+
+/* ------------third page------------- */
+
+.third_page {
+    background: url("../img/speaker.png") 70% center no-repeat, url("../img/Vector17.png") 100% 0 no-repeat, url("../img/Vector18.png") 100% 0 no-repeat, #F4F7FF;
+    font-family: Inter, sans-serif;
+}
+.item {
+    padding: 145px 0;
+}
+.item__price {
+    color: #3056D3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33; /* 24/18 */
+    margin-bottom: 13px;
+}
+.item__name {
+    max-width: 470px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25; /* 45/36 */
+    color: #212B36;
+    margin-bottom: 15px;
+}
+.item__about {
+    font-size: 16px;
+    font-weight: 500;
+    color: #637381;
+    line-height: 1.5; /* 24/16 */
+    margin-bottom: 35px;
+    max-width: 570px;
+}
+.button {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.53; /* 245/16 */
+    background-color: #3056D3;
+    color: #FFFFFF;
+    border-radius: 30px;
+    width: 139px;
+    padding: 10px 30px;
+}
