@@ -23,7 +23,7 @@ body {
     box-sizing: border-box;
     height: 100vh;
     padding: 64px 120px;
-    background-image: url("/img/header_background.png");
+    background-image: url("img/header_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,7 +215,7 @@ li {
     bottom: 0;
     z-index: -1;
     height: 460px;
-    background-image: url("/img/footer-bg.png");
+    background-image: url("img/footer-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
